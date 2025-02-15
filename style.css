@@ -2,7 +2,7 @@
 
 
 body{
-background-color: rgba(0, 153, 255, 0.747);
+background-color: rgba(10, 255, 235, 0.616);
 color: rgb(0, 0, 0);
 background-image:url(-img/79ec0efae164833b0ed42d7132aef46e-spring-sunglasses-icon.webp);
 
@@ -13,7 +13,7 @@ p{
 }
 figure.img-legenda{
     position: relative;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(102, 102, 102);
     box-shadow: 1px 1px 15px black;
     width: 49%;
 height: 100%;
