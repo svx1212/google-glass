@@ -7,10 +7,28 @@ color: rgb(0, 0, 0);
 background-image:url(-img/79ec0efae164833b0ed42d7132aef46e-spring-sunglasses-icon.webp);
 
 }   
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px 10px;
+}
 p{
     text-align: justify;
 
 }
+header#cabecalho img#icone{
+
+position: absolute;
+left: 960px;
+top: 50px;
+
+}
+header#cabecalho{
+
+}
+
 figure.img-legenda{
     position: relative;
     border: 5px solid rgb(102, 102, 102);
@@ -62,4 +80,11 @@ nav#Menu li:hover{
 }
 nav#Menu h1{
     display: none;
+}
+nav#Menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#Menu a:hover{
+    color: white;
 }
