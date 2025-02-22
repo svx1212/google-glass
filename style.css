@@ -40,3 +40,26 @@ figure.img-legenda:hover figcaption{
     opacity: 1;
     cursor: pointer;
 }
+nav#Menu{
+display: block;
+}
+nav#Menu ul {
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -10px;
+left: 700px;
+}
+nav#Menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition:  background-color 1s;
+}
+nav#Menu li:hover{
+        background-color: #606060 ;
+}
+nav#Menu h1{
+    display: none;
+}
