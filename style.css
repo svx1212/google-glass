@@ -5,14 +5,22 @@
     font-style: normal;
   }
   
-
-
+  .chakra-petch-regular {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
 
 :root{
     --Fonte-principal : 'Bubblegum Sans'
-   
+   /* fontes */
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -39,14 +47,14 @@ body{
     
     }
     header#cabecalho{
-    border-bottom:1px  #606060 solid;
+    border-bottom:1px  #000000 solid;
     height: 150px;
     background: url(-img/Google_Glass-Logo.wine\ \(3\).png) no-repeat  0px 50px ;
     }
     header#cabecalho h1 {
       font-family:var(--Fonte-principal) ;
         font-size: 35px;
-        color: #606060;
+        color: #272727;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
 padding: 0px;
 margin-bottom: 0px;
@@ -60,7 +68,7 @@ margin-bottom: 0px;
 padding: 0px;
 margin-top: 6px;
     }
-    
+    /* cabecalhoecorpo */
     figure.img-legenda{
         position: relative;
         border: 5px solid rgb(102, 102, 102);
@@ -90,6 +98,7 @@ margin-top: 6px;
         opacity: 1;
         cursor: pointer;
     }
+    /* imagem */
     nav#Menu{
     display: block;
     }
@@ -120,3 +129,94 @@ margin-top: 6px;
     nav#Menu a:hover{
         color: white;
     }
+
+/* nav */
+
+table#tabela{
+     border: 1px solid #000000;
+     border-spacing:0px ;
+     margin-left: auto;
+     margin-right: auto;
+  
+}
+table#tabela caption{
+    color: #606060;
+    font-size: 13pt;
+    font-weight: bolder;
+    font-family: "Chakra Petch", sans-serif;
+}
+table#tabela caption span{
+    display: block;
+    float: right;
+    color: #000000;
+     font-size: 9pt;
+   margin-top: 10px;
+   font-family: "Kanit", sans-serif;
+}
+
+table#tabela td{
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+   
+}
+table#tabela td#dado{
+    text-align: center;
+    background-color: #726e6e;
+}
+table#tabela td#resposta{
+   text-align: left;
+    background-color: #979797;
+}
+/* tabela */
+    section#Corpo{
+       display: block;
+       width: 500px;
+       float: left;
+       border-right: 1px solid rgb(0, 0, 0) ;
+       padding-right: 25px;
+
+    }
+    article#principal-not h2 {
+         font-size: 12pt;
+         color: #272727;
+         background-color: #c2c2c2;
+         padding: 5px 0px 3px 0px;
+         margin: 6px;
+         margin-bottom: 0px;
+    }
+
+header#cabecalho-artg h1{
+    font-family: "Emblema One", system-ui;
+    font-size: 18pt;
+    color:#606060;
+    margin: 0px;
+}
+header#cabecalho-artg h2{
+    font-size: 13pt;
+    color: #979797;
+    background-color: white;
+}
+header#cabecalho-artg h3{
+    font-size: 12px;
+    color: #606060;
+}
+
+
+    aside#lateral{
+        display: block;
+        width: 350px;
+        float: right;
+    }
+
+
+    footer#rodape{
+        clear: both;
+border-top: 1px solid black;
+
+    }
+
+    footer#rodape p{
+        text-align: center;
+    }
+/* separação */
