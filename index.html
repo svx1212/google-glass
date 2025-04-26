@@ -21,28 +21,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+
   
   
     <title>Google Glass: Realidade Aumentada ao Seu Olhar</title>
 </head>
+<script>
 
+    function mudafoto (foto)
+    { 
+        document.getElementById ("icone").src=foto;
+    }
+</script>
 <body>
     <div id="interface">
         <header id="cabecalho">
             <hgroup>
+                
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando </h2>
             </hgroup>
             <img id="icone" src="-img/oculos-google.png" alt="">
             <nav id="Menu">
-               
+
+   
            <h1> Menu Principal</h1>
            <ul  >
-          <li> <a href="index.html"> Home</a></li>
-          <li>  <a href="espec.html">Especificações</a></li>
-        <li> <a href="fotos.html">Fotos</a></li>
-           <li> <a href="multmida.html">Multímidia</a></li>
-        <li> <a href="fale.html"> Fale conosco</a>  </li>
+          <li onmouseover="mudafoto ('-img/Captura de Tela (2) (1).png ')" onmouseout="mudafoto('-img/oculos-google.png')"> <a href="index.html"> Home</a></li>
+          <li onmouseover="mudafoto('-img/images.png') "  onmouseout="mudafoto('-img/oculos-google.png')"  >  <a href="espec.html">Especificações</a></li>
+        <li  onmouseover="mudafoto ('-img/94999.png')"  onmouseout="mudafoto('-img/oculos-google.png')"> <a href="fotos.html">Fotos</a></li>
+           <li onmouseover="mudafoto('-img/Captura de Tela (4) (1).png')" onmouseout="mudafoto ('-img/oculos-google.png')"> <a href="multmida.html">Multímidia</a></li>
+        <li onmouseover="mudafoto('-img/pngtree-phone-icon-png-image_1817554 (1).png')" onmouseout="mudafoto ('-img/oculos-google.png')"> <a href="fale.html"> Fale conosco</a>  </li>
                </ul>
         </nav>
         </header>
@@ -53,7 +62,7 @@
       
             <h1>Saiba tudo sobre o Google Glass</h1>
             <h2>por Sérgio Vinícius</h2>
-            <h3>Atualizado em 1 de fevereiro de 2025</h 3>
+            <h3 class="lado-direito">Atualizado em 1 de fevereiro de 2025</h 3>
         </hgroup>
     </header>
         <h2>O que é </h2>
@@ -124,6 +133,7 @@
 <h1>Outras notícias</h1>
 <h2>Vídeos mais recentes</h2>
 
+
 <h2>Novidades</h2>
 <p><b>As novidades mais recentes do Google Glass estão principalmente na versão Enterprise Edition,</b>
      voltada para o mercado corporativo. Essa versão trouxe melhorias significativas em relação aos modelos
@@ -145,6 +155,9 @@
 </footer>
 
     </div>
+
+
+
 </body>
 
 </html>

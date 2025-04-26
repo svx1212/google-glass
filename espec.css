@@ -1,0 +1,18 @@
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-espec{
+width: 400px;
+height: 350px;
+border: none;
+overflow: hidden;
+}
+iframe  {
+
+
+
+ 
+    overflow: hidden;
+    border: none;
+  }
